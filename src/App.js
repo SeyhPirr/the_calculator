@@ -127,7 +127,7 @@ function formatOperand(operand) {
   }
   return `${INTEGER_FORMATTER.format(integer)}.${decimal}`;
 }
-//yorum satisiri
+//yorum satisirik
 function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
     reducer,
